@@ -1,0 +1,12 @@
+* {
+    font-family: montserrat, sans-serif;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
