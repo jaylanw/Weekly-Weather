@@ -43,7 +43,7 @@ $("#searchBtn").on("click", function() {
 
     })
   });
-    // City search history
+    // City search history list 
   function makeList() {
     let listItem = $("<li>").addClass("list-group-item").text(city);
     $(".list").append(listItem);
@@ -74,3 +74,15 @@ $("#searchBtn").on("click", function() {
    
   }
 
+function getCurrentForecast () {
+  
+  $.ajax({
+    url: "https://api.openweathermap.org/data/2.5/forecast?q=" + city + apiKey,
+    method: "GET"
+  }).then(function (response){
+
+    console.log(response)
+    let results = response.list;
+    console.log(results)
+  });
+}
