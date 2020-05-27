@@ -4,3 +4,5 @@ Not everyone has the time to watch the wetherman tell us the weekly forecast! We
 
 
 https://jaylanw.github.io/Weekly-Weather/
+
+![alt text](https://github.com/jaylanw/Daily-Planner/blob/master/assets/Screen%20Shot%202020-05-15%20at%2012.54.07%20PM.png)
