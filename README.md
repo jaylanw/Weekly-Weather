@@ -6,3 +6,6 @@ Not everyone has the time to watch the wetherman tell us the weekly forecast! We
 https://jaylanw.github.io/Weekly-Weather/
 
 ![alt text](https://github.com/jaylanw/Weekly-Weather/blob/master/Assets/Screen%20Shot%202020-05-26%20at%2011.14.12%20PM-1.png)
+
+## Issues
+An issue I have had with this week's homework is displaying the date correctly on the 5-day forescast cards. Another issues I'm having is Github not updating the launched page itself. 
