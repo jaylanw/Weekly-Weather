@@ -22,7 +22,7 @@ $("#searchBtn").on("click", function() {
   // Clearing the input 
   $("#searchCity").val("");  
 
-  const queryUrl = "http://api.openweathermap.org/data/2.5/forecast?q=" + city + apiKey;
+  const queryUrl = "https://api.openweathermap.org/data/2.5/forecast?q=" + city + apiKey;
 
   $.ajax({
     url: queryUrl,
